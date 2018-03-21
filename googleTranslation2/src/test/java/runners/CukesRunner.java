@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
 				 tags="@onlyFeature",
 				 dryRun=false)
 
-public class CukeRunner {
+public class CukesRunner {
 
 }
  
