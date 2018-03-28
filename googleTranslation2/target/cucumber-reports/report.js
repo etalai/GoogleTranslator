@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 4980567708,
+  "duration": 5212792410,
   "status": "passed"
 });
 formatter.scenario({
@@ -58,46 +58,46 @@ formatter.match({
   "location": "GoogleTranslateSteps.on_Google_translate_page()"
 });
 formatter.result({
-  "duration": 1931257360,
+  "duration": 1907511111,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleTranslateSteps.i_choose_source_language()"
 });
 formatter.result({
-  "duration": 810490743,
+  "duration": 1010976359,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleTranslateSteps.i_choose_target_language()"
 });
 formatter.result({
-  "duration": 346557580,
+  "duration": 308203331,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleTranslateSteps.i_type_a_word_into_source_field()"
 });
 formatter.result({
-  "duration": 80093837,
+  "duration": 73321651,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleTranslateSteps.i_click_on_translate()"
 });
 formatter.result({
-  "duration": 108438,
+  "duration": 92820,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleTranslateSteps.translation_is_displayed()"
 });
 formatter.result({
-  "duration": 1347889182,
+  "duration": 1194146835,
   "status": "passed"
 });
 formatter.after({
-  "duration": 119594,
+  "duration": 99067,
   "status": "passed"
 });
 });
