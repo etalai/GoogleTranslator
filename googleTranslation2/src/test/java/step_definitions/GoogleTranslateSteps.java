@@ -64,9 +64,8 @@ public class GoogleTranslateSteps {
 				Config.getProperty("toLanguage")+" language:");
 	    System.out.println(gtc.outputBox.getText());
 	    String outputText=gtc.outputBox.getText();
-	    assert!(outputText.isEmpty());
+	    assert(outputText.isEmpty());
 	    Driver.closeDriver();
-//	    Test comment
 	}
 
 }
