@@ -36,7 +36,7 @@ public class GoogleTranslateSteps {
 	public void i_choose_target_language() throws Throwable {
 
 		Select list2 = new Select(gtc.toDropdown);
-		list2.selectByVisibleText(Config.getProperty("toLanguage"));
+		list2.selectByVisibleText(Config.getProperty("Language"));
 	}
 	
 	@When("^I type a word into source field$")
@@ -64,7 +64,7 @@ public class GoogleTranslateSteps {
 				Config.getProperty("toLanguage")+" language:");
 	    System.out.println(gtc.outputBox.getText());
 	    String outputText=gtc.outputBox.getText();
-	    assert(outputText.isEmpty());
+	    assert!(outputText.isEmpty());
 	    Driver.closeDriver();
 	}
 

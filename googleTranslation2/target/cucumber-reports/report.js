@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 5212792410,
+  "duration": 4957792091,
   "status": "passed"
 });
 formatter.scenario({
@@ -58,46 +58,48 @@ formatter.match({
   "location": "GoogleTranslateSteps.on_Google_translate_page()"
 });
 formatter.result({
-  "duration": 1907511111,
+  "duration": 2007925808,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleTranslateSteps.i_choose_source_language()"
 });
 formatter.result({
-  "duration": 1010976359,
+  "duration": 852877429,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleTranslateSteps.i_choose_target_language()"
 });
 formatter.result({
-  "duration": 308203331,
+  "duration": 355089256,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleTranslateSteps.i_type_a_word_into_source_field()"
 });
 formatter.result({
-  "duration": 73321651,
+  "duration": 149539896,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleTranslateSteps.i_click_on_translate()"
 });
 formatter.result({
-  "duration": 92820,
+  "duration": 83449,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleTranslateSteps.translation_is_displayed()"
 });
 formatter.result({
-  "duration": 1194146835,
-  "status": "passed"
+  "duration": 638394632,
+  "error_message": "java.lang.AssertionError\r\n\tat step_definitions.GoogleTranslateSteps.translation_is_displayed(GoogleTranslateSteps.java:67)\r\n\tat ✽.Then Translation is displayed(GoogleTranslate.feature:11)\r\n",
+  "status": "failed"
 });
+formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 99067,
+  "duration": 911521986,
   "status": "passed"
 });
 });
