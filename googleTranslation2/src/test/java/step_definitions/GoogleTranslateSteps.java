@@ -34,8 +34,6 @@ public class GoogleTranslateSteps {
 	
 	@When("^I choose target language$")
 	public void i_choose_target_language() throws Throwable {
-//		Test comment
-//		Test comment three
 		Select list2 = new Select(gtc.toDropdown);
 		list2.selectByVisibleText(Config.getProperty("toLanguage"));
 	}
