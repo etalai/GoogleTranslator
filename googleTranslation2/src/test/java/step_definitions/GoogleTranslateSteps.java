@@ -36,7 +36,7 @@ public class GoogleTranslateSteps {
 	public void i_choose_target_language() throws Throwable {
 
 		Select list2 = new Select(gtc.toDropdown);
-		list2.selectByVisibleText(Config.getProperty("Language"));
+		list2.selectByVisibleText(Config.getProperty("toLanguage"));
 	}
 	
 	@When("^I type a word into source field$")
