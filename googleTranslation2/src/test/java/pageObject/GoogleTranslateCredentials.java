@@ -22,6 +22,10 @@ public class GoogleTranslateCredentials {
 	@FindBy(css="input[name='btnK']")
 	public WebElement submitBTN;	
 	
+	public void clickSubmitBTN(){
+		submitBTN.click();
+	}
+	
 	@FindBy(css="#tw-sl")
 	public WebElement fromDropdown;
 	
