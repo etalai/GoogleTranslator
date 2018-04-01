@@ -44,5 +44,9 @@ public class GoogleTranslateCredentials {
 	@FindBy(css="#tw-tl")
 	public WebElement toDropdown;
 	
-//	Test comment
+	public void checkTheCheckBox(WebElement element){
+		if(!element.clicked(){
+			element.click();
+		}
+	}
 }
