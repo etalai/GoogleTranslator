@@ -17,10 +17,12 @@ public class GoogleTranslateCredentials {
 	public WebElement translateUrl;	
 	
 	@FindBy(css="input#lst-ib")
-	public WebElement searchBox;
+	public WebElement searchBox;	
 	
-	public void searchFor(String value){
-		searchBox.sendkeys(value);
+	public void searchFor(String value) {
+		searchBox.clear();
+		searchBox.sendKeys(value);
+		searchBox.click();
 	}
 	
 	@FindBy(css="input[name='btnK']")
