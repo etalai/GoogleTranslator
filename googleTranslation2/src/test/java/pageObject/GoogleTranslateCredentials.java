@@ -19,8 +19,18 @@ public class GoogleTranslateCredentials {
 	@FindBy(css="input#lst-ib")
 	public WebElement searchBox;	
 	
+	public void searchFor(String value) {
+		searchBox.clear();
+		searchBox.sendKeys(value);
+		searchBox.click();
+	}
+	
 	@FindBy(css="input[name='btnK']")
 	public WebElement submitBTN;	
+	
+	public void clickSubmitBTN(){
+		submitBTN.click();
+	}
 	
 	@FindBy(css="#tw-sl")
 	public WebElement fromDropdown;
