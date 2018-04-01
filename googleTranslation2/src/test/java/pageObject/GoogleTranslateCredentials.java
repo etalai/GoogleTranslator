@@ -44,4 +44,12 @@ public class GoogleTranslateCredentials {
 	@FindBy(css="#tw-tl")
 	public WebElement toDropdown;
 	
+<<<<<<< HEAD
+=======
+	public void checkTheCheckBox(WebElement element){
+		if(!element.clicked(){
+			element.click();
+		}
+	}
+>>>>>>> branch 'master' of https://github.com/etalai/GoogleTranslator.git
 }
